@@ -1,0 +1,133 @@
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+/*TERMINO DE RESET CSS*/
+
+/*paleta de colores*/
+/*verdeoscuro: #027353;
+verde claro: #63a693;
+verde : #026637;
+salmon : #d96704;
+salmon brillo: #f25c05;*/
+body{
+	background-color: #FFF;
+	padding-top: 0em;
+	background-image: url(../img/pattern_024.png);
+	/*background-repeat: repeat-x;*/
+
+		
+}
+.container {
+
+}
+h1{
+	font-size: 42px;
+}
+.cabecera{
+
+	/*border: solid .5em;
+	border-color: #FF820C;*/
+	
+	border-radius: 2px;
+	background-color: #FFF;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	max-width: 100%;
+	min-height: 200px;
+	color: #363636;
+	vertical-align: bottom;
+
+}
+.hero-unit{
+    background: #212121;
+	background-image: url(../img/banner3.png);
+	background-repeat: no-repeat;
+    background-position: right;
+	width: 980px;
+	height: 200px;
+	background: ;
+	border: solid 1px;
+	border-color:  #63a693;
+	color: #FFF;
+
+	/*text-align: center;
+	height: 300px;*/
+}
+.well{
+	text-align:left;
+	color: #212121;
+}
+.porte{
+	width: 110px;
+	height: 90%;
+
+}
+.fondo{
+	background-image: url(../img/pattern_037.png);
+}
+.color{
+	color: #B2B2B2;
+}
+.alert-info{
+	background: #212121;
+	background-image: url(../img/taller1.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+.taller{
+	background-image: url(../img/taller1.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+.terreno{
+	background-image: url(../img/terreno1.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+.empresa{
+	background-image: url(../img/gearfondo.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
